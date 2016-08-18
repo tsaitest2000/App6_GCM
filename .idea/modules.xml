@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/App6_GCM.iml" filepath="$PROJECT_DIR$/App6_GCM.iml" />
       <module fileurl="file://$PROJECT_DIR$/c31_01_GCM/c31_01_GCM.iml" filepath="$PROJECT_DIR$/c31_01_GCM/c31_01_GCM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c32_01_GCM/c32_01_GCM.iml" filepath="$PROJECT_DIR$/c32_01_GCM/c32_01_GCM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c32_02_Gcm_Backend/c32_02_Gcm_Backend.iml" filepath="$PROJECT_DIR$/c32_02_Gcm_Backend/c32_02_Gcm_Backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c32_03_WhosCall/c32_03_WhosCall.iml" filepath="$PROJECT_DIR$/c32_03_WhosCall/c32_03_WhosCall.iml" />
     </modules>
   </component>
 </project>

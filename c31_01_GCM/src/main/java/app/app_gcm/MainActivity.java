@@ -14,7 +14,6 @@ import java.io.IOException;
 public class MainActivity extends AppCompatActivity {
 
    private Context context;
-
    private TextView textView;
 
    @Override
@@ -65,5 +64,6 @@ public class MainActivity extends AppCompatActivity {
          }
       }
    }
+
 }
 

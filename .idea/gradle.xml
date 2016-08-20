@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/c32_01_GCM" />
             <option value="$PROJECT_DIR$/c32_02_Gcm_Backend" />
             <option value="$PROJECT_DIR$/c32_03_WhosCall" />
+            <option value="$PROJECT_DIR$/c33_01_Frag_Pokemon" />
           </set>
         </option>
         <option name="myModules">
@@ -22,6 +23,7 @@
             <option value="$PROJECT_DIR$/c32_01_GCM" />
             <option value="$PROJECT_DIR$/c32_02_Gcm_Backend" />
             <option value="$PROJECT_DIR$/c32_03_WhosCall" />
+            <option value="$PROJECT_DIR$/c33_01_Frag_Pokemon" />
           </set>
         </option>
       </GradleProjectSettings>

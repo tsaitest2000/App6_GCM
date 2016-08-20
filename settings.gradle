@@ -1,2 +1,2 @@
-include ':c31_01_GCM'
+include ':c31_01_GCM', ':c33_01_Frag_Pokemon'
 include ':c32_01_GCM', ':c32_02_Gcm_Backend' ,':c32_03_WhosCall'

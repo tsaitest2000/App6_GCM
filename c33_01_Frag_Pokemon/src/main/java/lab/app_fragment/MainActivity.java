@@ -17,14 +17,12 @@ public class MainActivity extends AppCompatActivity {
 
    public void onClick(View view) {
       switch (view.getId()) {
-
          case R.id.addButton:
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.add(R.id.container, new PokemonFragment()); //亦可以呼叫ft.replace(.....);
             ft.addToBackStack("test");
             ft.commit();
             break;
-
          case R.id.backButton:
             getFragmentManager().popBackStack();
             break;

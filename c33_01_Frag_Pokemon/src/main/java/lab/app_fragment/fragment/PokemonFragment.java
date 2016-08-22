@@ -39,15 +39,8 @@ public class PokemonFragment extends Fragment {
    }
 
    class RunWork extends Thread {
+
       private List<Pokemon> list;
-      Runnable runnable = new Runnable() {
-         @Override
-         public void run() {
-            int n = new Random().nextInt(list.size());
-            mTvPokemon.setText(list.get(n).getName());
-            Picasso.with(getActivity()).load(list.get(n).getImage()).into(mIvPokemon);
-         }
-      };
 
       public void run() {
          try {
@@ -57,6 +50,15 @@ public class PokemonFragment extends Fragment {
             e.printStackTrace();
          }
       }
+
+      Runnable runnable = new Runnable() {
+         @Override
+         public void run() {
+            int number = new Random().nextInt(list.size());
+            Picasso.with(getActivity()).load(list.get(number).getImage()).into(mIvPokemon);
+            mTvPokemon.setText(list.get(number).getName());
+         }
+      };
    }
 
 }

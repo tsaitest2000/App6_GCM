@@ -12,12 +12,12 @@ import java.util.Random;
 
 import lab.app_fragment.R;
 
-public class MyFragment extends Fragment {
+public class MyFrag extends Fragment {
 
    @Nullable
    @Override
    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-      View view = inflater.inflate(R.layout.fragment_my, null);
+      View view = inflater.inflate(R.layout.frag_my, null);
       TextView textView = (TextView) view.findViewById(R.id.textView);
       textView.setText("幸運數字:" + new Random().nextInt(100));
       return view;

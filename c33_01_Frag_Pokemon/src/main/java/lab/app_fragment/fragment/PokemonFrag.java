@@ -18,7 +18,7 @@ import lab.app_fragment.R;
 import pokemon.Pokemon;
 import pokemon.PokemonUtil;
 
-public class PokemonFragment extends Fragment {
+public class PokemonFrag extends Fragment {
 
    private TextView mTvPokemon;
    private ImageView mIvPokemon;
@@ -26,7 +26,7 @@ public class PokemonFragment extends Fragment {
    @Nullable
    @Override
    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-      View view = inflater.inflate(R.layout.fragment_pokemon, null);
+      View view = inflater.inflate(R.layout.frag_pokemon, null);
       mTvPokemon = (TextView) view.findViewById(R.id.text_view_pokemon);
       mIvPokemon = (ImageView) view.findViewById(R.id.image_view_pokemon);
       return view;

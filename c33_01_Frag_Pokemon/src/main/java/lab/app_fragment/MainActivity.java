@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import lab.app_fragment.fragment.PokemonFragment;
+import lab.app_fragment.fragment.PokemonFrag;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
       switch (view.getId()) {
          case R.id.addButton:
             FragmentTransaction ft = getFragmentManager().beginTransaction();
-            ft.add(R.id.container, new PokemonFragment()); //亦可以呼叫ft.replace(.....);
+            ft.add(R.id.container, new PokemonFrag()); //亦可以呼叫ft.replace(.....);
             ft.addToBackStack("test");
             ft.commit();
             break;

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bmw_m"
+            android:icon="@drawable/car_icon3"
+            android:title="BMW M" />
+        <item
+            android:id="@+id/bmw_x"
+            android:icon="@drawable/car_icon3"
+            android:title="BMW X" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/bmw_i"
+                android:icon="@drawable/car_icon3"
+                android:title="BMW i" />
+        </menu>
+    </item>
+
+</menu>

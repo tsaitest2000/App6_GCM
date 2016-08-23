@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/c32_03_WhosCall/c32_03_WhosCall.iml" filepath="$PROJECT_DIR$/c32_03_WhosCall/c32_03_WhosCall.iml" />
       <module fileurl="file://$PROJECT_DIR$/c33_01_Frag_Pokemon/c33_01_Frag_Pokemon.iml" filepath="$PROJECT_DIR$/c33_01_Frag_Pokemon/c33_01_Frag_Pokemon.iml" />
       <module fileurl="file://$PROJECT_DIR$/c33_H_Frag_Pirate/c33_H_Frag_Pirate.iml" filepath="$PROJECT_DIR$/c33_H_Frag_Pirate/c33_H_Frag_Pirate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c34_01_Frag_Drawer/c34_01_Frag_Drawer.iml" filepath="$PROJECT_DIR$/c34_01_Frag_Drawer/c34_01_Frag_Drawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testfragdrawer/testfragdrawer.iml" filepath="$PROJECT_DIR$/testfragdrawer/testfragdrawer.iml" />
     </modules>
   </component>
 </project>

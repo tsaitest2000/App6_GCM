@@ -1,0 +1,11 @@
+M,BMW M2 雙門跑車,http://www.bmw.com.tw/content/dam/bmw/common/all-models/m-series/m2-coupe/2015/Modelcard/m2-coupe.png
+M,BMW M3 四門跑車,http://www.bmw.com.tw/content/dam/bmw/common/all-models/m-series/m3-sedan/2014/model-card/M3-Sedan_ModelCard.png
+M,BMW M4 雙門跑車,http://www.bmw.com.tw/content/dam/bmw/common/all-models/m-series/m4-coupe/2014/model-card/M4-Coup%C3%A9_ModelCard.png
+M,BMW M4 敞篷跑車,http://www.bmw.com.tw/content/dam/bmw/common/all-models/m-series/m4-convertible/2014/model-card/M4-Convertible_ModelCard.png
+M,BMW M5 四門跑車,http://www.bmw.com.tw/content/dam/bmw/common/all-models/m-series/m5-sedan/2013/model-card/BMW-M5-Sedan_ModelCard.png
+M,BMW M6 雙門跑車,http://www.bmw.com.tw/content/dam/bmw/common/all-models/m-series/m6-coupe/2015/model-card/BMW-M6-Coupe_ModelCard.png
+M,BMW M6 Gran Coupe,http://www.bmw.com.tw/content/dam/bmw/common/all-models/m-series/m6-gran-coupe/2015/model-card/BMW-M6-Gran-Coupe_ModelCard.png
+X,BMW X5 M,http://www.bmw.com.tw/content/dam/bmw/common/all-models/m-series/x5m/2014/model-card/X5%20-M-F85_ModelCard.png
+X,BMW X6 M,http://www.bmw.com.tw/content/dam/bmw/common/all-models/m-series/x6m/2014/model-card/X6-M-F86_ModelCard.png
+i,BMW i3,http://www.bmw.com.tw/content/dam/bmw/common/all-models/i-series/i3/2013/model-card/BMW-i3_ModelCard.png
+i,BMW i8,http://www.bmw.com.tw/content/dam/bmw/common/all-models/i-series/i8/2014/model-card/BMW-i8_ModelCard.png

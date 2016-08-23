@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:iphone="http://schemas.android.com/apk/res/android"
+    iphone:id="@+id/scrollView"
+    iphone:layout_width="match_parent"
+    iphone:layout_height="match_parent">
+
+    <!-- 記得給id 以便程式端使用 -->
+    <LinearLayout
+        iphone:id="@+id/layout"
+        iphone:layout_width="match_parent"
+        iphone:layout_height="match_parent"
+        iphone:orientation="vertical">
+    </LinearLayout>
+
+</ScrollView>

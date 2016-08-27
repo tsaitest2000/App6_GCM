@@ -18,7 +18,7 @@ import lab.app_fragment.R;
 import pokemon.Pokemon;
 import pokemon.PokemonUtil;
 
-public class PokemonFrag extends Fragment {
+public class FragPokemon extends Fragment {
 
    private TextView mTvPokemon;
    private ImageView mIvPokemon;

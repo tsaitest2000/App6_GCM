@@ -28,7 +28,7 @@
     <fragment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:name="lab.app_fragment.fragment.MyFrag"
+        android:name="lab.app_fragment.fragment.FragNumber"
         android:id="@+id/fragment"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
@@ -36,7 +36,7 @@
     <fragment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:name="lab.app_fragment.fragment.MyFrag"
+        android:name="lab.app_fragment.fragment.FragNumber"
         android:id="@+id/fragment2"
         android:layout_above="@+id/fragment"
         android:layout_alignLeft="@+id/fragment"
@@ -45,7 +45,7 @@
     <fragment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:name="lab.app_fragment.fragment.MyFrag"
+        android:name="lab.app_fragment.fragment.FragNumber"
         android:id="@+id/fragment3"
         android:layout_above="@+id/fragment2"
         android:layout_centerHorizontal="true" />

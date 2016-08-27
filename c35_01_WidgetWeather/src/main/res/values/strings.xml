@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">c35_Weather</string>
+    <string name="appwidget_text">Hello Weather</string>
+    <string name="add_widget">c35 WidgetWeather</string>
+</resources>

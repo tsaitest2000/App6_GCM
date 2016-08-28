@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="github.kevin.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/item1_hint"
+        android:orderInCategory="100"
+        android:title="點按小點選擇城市"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/item2_taipei"
+        android:orderInCategory="100"
+        android:title="台北市"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item3_taichung"
+        android:orderInCategory="100"
+        android:title="台中市"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item4_tainan"
+        android:orderInCategory="100"
+        android:title="台南市"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item5_vocal"
+        android:orderInCategory="100"
+        android:title="語音查詢"
+        app:showAsAction="never"/>
+
+</menu>

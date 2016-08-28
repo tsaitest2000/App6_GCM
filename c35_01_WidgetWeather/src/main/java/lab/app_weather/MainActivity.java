@@ -1,11 +1,15 @@
 package lab.app_weather;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.speech.RecognizerIntent;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
@@ -14,6 +18,7 @@ import com.squareup.okhttp.Response;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,36 +40,47 @@ public class MainActivity extends AppCompatActivity {
 
    @Override
    public boolean onCreateOptionsMenu(Menu menu) {
-      menu.add(0, 1, Menu.NONE, "台北市");
-      menu.add(0, 2, Menu.NONE, "新北市");
-      menu.add(0, 3, Menu.NONE, "台中市");
-      menu.add(0, 4, Menu.NONE, "台南市");
-      menu.add(0, 5, Menu.NONE, "高雄市");
-      return super.onCreateOptionsMenu(menu);
+      MainActivity.this.getMenuInflater().inflate(R.menu.menu_main, menu);
+      return true;
    }
 
    @Override
    public boolean onOptionsItemSelected(MenuItem item) {
       switch (item.getItemId()) {
-         case 1:
+         case R.id.item1_hint:
+            m_City = null;
+            break;
+         case R.id.item2_taipei:
             m_City = "Taipei";
             break;
-         case 2:
-            m_City = "NewTaipei";
-            break;
-         case 3:
+         case R.id.item3_taichung:
             m_City = "Taichung";
             break;
-         case 4:
+         case R.id.item4_tainan:
             m_City = "Tainan";
             break;
-         case 5:
-            m_City = "Kaohsiung";
+         case R.id.item5_vocal:
+            Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+            intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_WEB_SEARCH);
+            MainActivity.this.startActivityForResult(intent, 101);
             break;
       }
       m_City_Url = String.format(m_City_Data, m_City);
       new RunWork_Weather().start();
       return super.onOptionsItemSelected(item);
+   }
+
+   // 取得語音查詢的結果(即欲查詢天氣的城市名稱)
+   @Override
+   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+      super.onActivityResult(requestCode, resultCode, data);
+      if (requestCode == 101 && resultCode == Activity.RESULT_OK) {
+         ArrayList<String> cities = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+         m_City = cities.get(0);
+         Toast.makeText(MainActivity.this, m_City, Toast.LENGTH_SHORT).show();
+         m_City_Url = String.format(m_City_Data, m_City);
+         new RunWork_Weather().start();
+      }
    }
 
    class RunWork_Weather extends Thread {

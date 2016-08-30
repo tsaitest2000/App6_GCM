@@ -1,5 +1,7 @@
-include ':c31_01_GCM', ':testfragdrawer'
+include ':c31_01_GCM'
 include ':c32_01_GCM', ':c32_02_GCM_Backend', ':c32_03_WhosCall'
 include ':c33_01_Frag_Pokemon', ':c33_H_Frag_Pirate'
 include ':c34_01_Frag_Drawer'
 include ':c35_01_WidgetWeather'
+include ':c36_01_WidgetWeather'
+

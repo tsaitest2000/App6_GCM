@@ -76,10 +76,12 @@ public class AppWidgetWeather extends AppWidgetProvider {
             }
          };
          Picasso.with(context).load(widgetIconURL).into(target);
-         // ★★★★★ 不懂的語法 ===================================================================
+
+         // ★★★★★ 困難============的語法 ===================================================================
          // Retrieve a PendingIntent that will start a new activity, like calling Context.startActivity(Intent).
          PendingIntent pendingIntent =
             PendingIntent.getActivity(context, 101, new Intent(context, MainActivity.class), PendingIntent.FLAG_UPDATE_CURRENT);
+
          // Equivalent to calling setOnClickListener(android.view.View.OnClickListener) to launch the provided PendingIntent.
          views.setOnClickPendingIntent(R.id.appwidget_icon, pendingIntent);
       }
@@ -104,9 +106,9 @@ public class AppWidgetWeather extends AppWidgetProvider {
       int height = bm.getHeight();
       float scaleWidth = ((float) newWidth) / width;
       float scaleHeight = ((float) newHeight) / height;
-      Matrix matrix = new Matrix(); // CREATE A MATRIX FOR THE MANIPULATION
-      matrix.postScale(scaleWidth, scaleHeight); // RESIZE THE BIT MAP
-      Bitmap resizedBitmap = Bitmap.createBitmap(bm, 0, 0, width, height, matrix, false); // "RECREATE" THE NEW BITMAP
+      Matrix matrix = new Matrix(); // Create A Matrix For The Manipulation
+      matrix.postScale(scaleWidth, scaleHeight); // Resize the bitmap
+      Bitmap resizedBitmap = Bitmap.createBitmap(bm, 0, 0, width, height, matrix, false); // "Recreate" The New Bitmap
       bm.recycle();
       return resizedBitmap;
    }

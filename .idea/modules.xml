@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/App6_GCM.iml" filepath="$PROJECT_DIR$/App6_GCM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/App6_GCM_Call_Frag_Widget.iml" filepath="$PROJECT_DIR$/App6_GCM_Call_Frag_Widget.iml" />
       <module fileurl="file://$PROJECT_DIR$/c31_01_GCM/c31_01_GCM.iml" filepath="$PROJECT_DIR$/c31_01_GCM/c31_01_GCM.iml" />
       <module fileurl="file://$PROJECT_DIR$/c32_01_GCM/c32_01_GCM.iml" filepath="$PROJECT_DIR$/c32_01_GCM/c32_01_GCM.iml" />
       <module fileurl="file://$PROJECT_DIR$/c32_02_GCM_Backend/c32_02_GCM_Backend.iml" filepath="$PROJECT_DIR$/c32_02_GCM_Backend/c32_02_GCM_Backend.iml" />
@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/c34_01_Frag_Drawer/c34_01_Frag_Drawer.iml" filepath="$PROJECT_DIR$/c34_01_Frag_Drawer/c34_01_Frag_Drawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/c35_01_WidgetWeather/c35_01_WidgetWeather.iml" filepath="$PROJECT_DIR$/c35_01_WidgetWeather/c35_01_WidgetWeather.iml" />
       <module fileurl="file://$PROJECT_DIR$/c36_01_WidgetWeather/c36_01_WidgetWeather.iml" filepath="$PROJECT_DIR$/c36_01_WidgetWeather/c36_01_WidgetWeather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c37_01_WidgetConfig/c37_01_WidgetConfig.iml" filepath="$PROJECT_DIR$/c37_01_WidgetConfig/c37_01_WidgetConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c37_02_WidgetIcon/c37_02_WidgetIcon.iml" filepath="$PROJECT_DIR$/c37_02_WidgetIcon/c37_02_WidgetIcon.iml" />
     </modules>
   </component>
 </project>

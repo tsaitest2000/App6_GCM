@@ -1,4 +1,4 @@
-include ':c31_01_GCM'
+include ':c31_01_GCM', ':c37_01_WidgetConfig', ':c37_02_WidgetIcon'
 include ':c32_01_GCM', ':c32_02_GCM_Backend', ':c32_03_WhosCall'
 include ':c33_01_Frag_Pokemon', ':c33_H_Frag_Pirate'
 include ':c34_01_Frag_Drawer'

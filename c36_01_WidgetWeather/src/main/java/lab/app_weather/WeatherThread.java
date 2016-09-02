@@ -12,7 +12,6 @@ import java.io.IOException;
 public class WeatherThread extends Thread {
 
    private String mUrl = "http://api.openweathermap.org/data/2.5/forecast/city?APPID=6eada5ea2bdf83d34d3fc39a33ffb403&q=taipei";
-
    OkHttpClient client = new OkHttpClient();
 
    String run(String url) throws IOException {
@@ -41,9 +40,6 @@ public class WeatherThread extends Thread {
 
          // AppWidgetWeather自行到第三方(Weather型別物件)中取用即時的天氣資料
          AppWidgetWeather.sWeather = weather;
-      } catch (Exception e) {
-         e.printStackTrace();
-      }
+      } catch (Exception e) { e.printStackTrace(); }
    }
-
 }

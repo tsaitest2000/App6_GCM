@@ -18,6 +18,8 @@
             <option value="$PROJECT_DIR$/c34_01_Frag_Drawer" />
             <option value="$PROJECT_DIR$/c35_01_WidgetWeather" />
             <option value="$PROJECT_DIR$/c36_01_WidgetWeather" />
+            <option value="$PROJECT_DIR$/c37_01_WidgetConfig" />
+            <option value="$PROJECT_DIR$/c37_02_WidgetIcon" />
           </set>
         </option>
         <option name="myModules">
@@ -32,6 +34,8 @@
             <option value="$PROJECT_DIR$/c34_01_Frag_Drawer" />
             <option value="$PROJECT_DIR$/c35_01_WidgetWeather" />
             <option value="$PROJECT_DIR$/c36_01_WidgetWeather" />
+            <option value="$PROJECT_DIR$/c37_01_WidgetConfig" />
+            <option value="$PROJECT_DIR$/c37_02_WidgetIcon" />
           </set>
         </option>
       </GradleProjectSettings>
